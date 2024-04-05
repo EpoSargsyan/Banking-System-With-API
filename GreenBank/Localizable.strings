@@ -1,0 +1,247 @@
+/* 
+  Localizable.strings
+  GreenBank
+
+  Created by Anna Hakobyan on 18.01.24.
+  
+*/
+/* Login Module Strings */
+"login_sigin_text" = "Sign In";
+"login_email_placeholder" = "Your email";
+"login_password_placeholder" = "Your Password";
+"login_password_label" = "Password";
+"login_email_title" = "Email";
+"login_signupButton_placeholder" = "Sign up";
+"login_loginButton_placeholder" = "Sign in";
+"login_questionButton" = "Don’t have an account?";
+"login_signup_button" = "Sign Up";
+"login_forgotButton" = "Forgot password?";
+"login_backgorundImage" = "logo";
+"login_logo" = "logoHeader";
+"login_email_error" = "Please add a valid email";
+"login_password_error" = "Please enter right password";
+"login_error_icon" = "error";
+
+/* Signup Module Strings */
+"signup_logo" = "logoHeader";
+"signup_signin_button" = "Sign in";
+"signup_name" = "Name";
+"signup_surname" = "Surname";
+"signup_email" = "Email";
+"signup_password" = "Password";
+"signup_phone" = "Phone";
+"signup_firstname_placeholder" = "Fisrt name";
+"signup_lastname_placeholder" = "Last name";
+"signup_password_placeholder" = "Add password";
+"signup_email_placeholder" = "Your email";
+"signup_phoneNumber_placeholder" = "Phone number";
+"signup_button" = "Sign up";
+"signup_createAccountButton_placeholder" = "Create Account";
+"signup_questionButton" = "Already have an account?";
+"signup_validation_email" = "Please add a valid email";
+"signup_validation_name" = "This field can only contain letters";
+"signup_validation_surname" = "This field can only contain letters";
+"signup_validation_password" = "Create a password with at least 8 characters";
+"signup_validation_phone" = "Please enter a right number";
+"signup_validation_error_logo" = "error";
+"signup_eye_logo" = "eye";
+"signup_eye_off_logo" = "eye-off";
+"signup_date_birth_text" = "Birth date";
+"signup_dd_mm_yy" = "DD/MM/YYYY";
+"signup_calendar" = "calendar";
+"signup_select_btn" = "Select";
+"signup_verification_back" = "back";
+"signup_verification_text" = "Verification";
+"signup_verification_digits_text" = "Enter the 4 digits code that you received on your email";
+"signup_verification_continue" = "Continue";
+"signup_success_logo" = "changedDone";
+"signup_success_text" = "Your request successfully completed. Press to continue";
+"signup_success_button_text" = "Continue";
+
+/*NetworkError*/
+"error_parametersNil" = "Error Found : Parameters are nil.";
+"error_headersNil" = "Error Found : Headers are Nil";
+"error_encodingFailed" = "Error Found : Parameter Encoding failed.";
+"error_decodingFailed" = "Error Found : Unable to Decode the data.";
+"error_missingURL" = "Error Found : The URL is nil.";
+"error_couldNotParse" = "Error Found : Unable to parse the JSON response.";
+"error_noData" = "Error Found : The data from API is Nil.";
+"error_FragmentResponse" = "Error Found : The API's response's body has fragments.";
+"error_UnwrappingError" = "Error Found : Unable to unwrape the data.";
+"error_dataTaskFailed" = "Error Found : The Data Task object failed.";
+"error_success" = "Successful Network Request";
+"error_authenticationError" = "Error Found : You must be Authenticated";
+"error_badRequest" = "Error Found : Bad Request";
+"error_pageNotFound" = "Error Found : Page/Route rquested not found.";
+"error_failed" = "Error Found : Network Request failed";
+"error_serverSideError" = "Error Found : Server error";
+ 
+/*Forgot Password Strings*/
+"forgot_password_back" = "back";
+"forgot_password_text" = "Forgot Password";
+"forgot_password_email_text" = "Enter your email for the verification process, we will end 4 digits code to your email";
+"forgot_password_email" = "Email";
+"forgot_password_your_email" = "Your Email";
+"forgot_password_continue" = "Continue";
+"forgot_password_backgorundImage" = "logo";
+
+/*Verification Strings*/
+"verification_back" = "back";
+"verification" = "Verification";
+"verification_digits_text" = "Enter the 4 digits code that you received on your email";
+"verification_continue" = "Continue";
+"verification_logo_name" = "logo";
+
+/*Reset Password Strings*/
+"reset_password_back" = "back";
+"reset_password_text" = "Reset Password";
+"reset_password_new_password" = "Please set the new password for your account so you can sign in";
+"reset_password_password_label" = "Password";
+"reset_password_password_placeholder" = "Enter new Password";
+"reset_password_confirm_password_label" = "Confirm Password";
+"reset_password_confirm_password_placeholder" = "Re-enter new password";
+"reset_password_eye_image" = "eye";
+"reset_password_continue" = "Continue";
+
+/*Password Changed Strings*/
+"password_changed_text" = "Password Chnaged";
+"password_changed_image" = "changedDone";
+"password_changed_succesfully" = "Your password has been changed succesfully";
+"password_changed_continue" = "Continue";
+
+/*Home Page Strings*/
+"home_bank_logo" = "bank";
+"home_open_balance" = "Open a Balance";
+"home_have_acc_question" = "You don't have an account";
+"home_new_account_btn_text" = "Add new account";
+"home_account_text" = "Account";
+"home_semgment_control_current" = "Current";
+"home_segment_control_saving" = "Saving";
+
+/*New Account Strings*/
+"new_account_back" = "back";
+"new_account_text" = "Request a new account";
+"new_account_select_acc" = "Select an account type";
+"new_account_select_currency" = "Select a currency";
+"new_account_account_name_text" = "You can give your account name";
+"new_account_current_acc" = "Current account";
+"new_account_saving_acc" = "Saving account";
+"new_account_label_text" = "Account name (optional)";
+"new_account_textfield_text" = "You can give youe account name";
+"new_account_btn_text" = "Request";
+"new_account_countinue_text" = "Countinue";
+"new_account_request_failed_image" = "requestFailed";
+"new_account_usd" = "USD";
+"new_account_eur" = "EUR";
+"new_account_rub" = "RUB";
+"new_account_amd" = "AMD";
+"new_account_done_logo" = "changedDone";
+"new_account_success_text" = "Your request successfully completed. Press to continue";
+"new_account_failed_text" = "Something went wrong. Try again. Press to continue";
+
+/*Transfer QR*/
+"QR_label_text" = "Transfer via QR code";
+"QR_scan_text" = "Scan the QR Code to process your payment";
+"QR_using_example_text" = "Place an QR at the center of your camera and the QR will be automatically scanned";
+
+
+/*Icons Strings*/
+"icon_account_home" = "account_home";
+"icon_calendar" = "calendar";
+"icon_credit_card" = "credit-card";
+"icon_dollar" = "dollar";
+"icon_eur" = "eur";
+"icon_rub" = "ruble";
+"icon_amd" = "amd";
+"icon_visa_card" = "visa-card";
+"icon_master_card" = "master-card";
+"cards_balanceLabel" = "Current Balance";
+"icon_drop_down" = "drop-down";
+"icon_coins" = "coins";
+"icon_bag" = "bag";
+"icon_front" = "front";
+
+/* HomePageTableView */
+"homePage_topLabel" = "Add your first card";
+"homePage_bottomLabel" = "You don’t have any cards";
+"homePage_lastCardLabel" = "Add a new card";
+
+/* PersonalInfoView */
+"personal_info_text" = "Personal Information";
+"personal_info_button_text" = "Save";
+
+/* Transactions */
+"transfer_account_label" = "Transfer to account";
+"transfer_account_picker_placeholder" = "Choose a debit account";
+
+/* Settings */
+"settings_text" = "Settings";
+"settings_security_settings_text" = "Security settings";
+"settings_mode_settings_text" = "Mode settings";
+"settings_change_password_text" = "Change password";
+"settings_light_dark_text" = "Light / Dark";
+"settings_confirm_password_text" = "Confirm Password";
+"settiings_current_password_text" = "Please enter your current password to confirm it.";
+"settings_password_text" = "Password";
+"settings_your_password_text" = "Your password";
+"settings_continue_btn_text" = "Continue";
+"settings_change_password" = "Change password";
+"settings_enter_new_password_label" = "Please enter new password to change it.";
+"settings_save_btn" = "Save";
+"settings_new_password" = "New Password";
+"settings_enter_new_password" = "Enter new password";
+"settings_re_enter_new_password" = "Re-enter new password";
+
+/* PrivacyPolicy */
+"privacy_policy_label_text" = "Privacy policy";
+"privacy_policy_update" = "Last updated: 04.03.24";
+"privacy_policy_update_text" = "GreenBank is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and disclose information about you when you use our mobile banking app (the GreenBank). By using the GreenBank, you agree to the terms of this Privacy Policy.";
+"privacy_policy_info" = "Information We Collect";
+"privacy_policy_info_text" = "Personal Information: When you use the App, we may collect personal information such as your name, address, email address, phone number, and account information.
+
+Usage Information: We may also collect information about how you use the App, such as the pages you visit and the actions you take.";
+
+
+/* Help and Support */
+"helpAndSupport_text" = "Help and Support";
+"helpAndSupport_frequently_text" = "Frequently Asked Questions";
+"helpAndSupport_contuctUs" = "Contuct Us";
+"helpAndSupport_login_question" = "How do I log in to my account?";
+"helpAndSupport_login_answer" = "To log in, open the GreenBank app and enter your username and password on the login screen. If you've forgotten your login details, you can reset them using the Forgot Password option.";
+"helpAndSupport_transfer_accounts_question" = "How do I transfer money between accounts?";
+"helpAndSupport_transfer_accounts_answer" = "";
+"helpAndSupport_transfer_cards_question" = "How do I transfer money between cards?";
+"helpAndSupport_transfer_cards_answer" = "";
+"helpAndSupport_change_password_question" = "How can I change my password?";
+"helpAndSupport_change_password_answer" = "";
+"helpAndSupport_liveChat_text" = "If you need further assistance or have any questions, please contact GreenBank customer support at
+LIVE CHAT.";
+"helpAndSupport_feedback_text" = "We value your feedback! If you have any suggestions or comments about the GreenBank mobile app, please let us know. Your feedback helps us improve our services for you.";
+
+
+/*New Card*/
+//    
+//GreenBank is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and disclose information about you when you use our mobile banking app (the GreenBank). By using the GreenBank, you agree to the terms of this Privacy Policy.
+//
+//
+//Information We Collect
+//
+"newCard_cardType" = "Select a card type";
+"newCard_account" = "Choose an account";
+//
+//Usage Information: We may also collect information about how you use the App, such as the pages you visit and the actions you take.
+//
+//
+"newCard_currency" = "Select a Currency";
+//
+"newCard_cardName" = "Card Name (Optional)";
+//
+//Providing and improving the App
+"newCard_cardNamePlaceHolder" = "You can give your card a name";
+//Analyzing trends and user behavior
+//Detecting and preventing fraud and other illegal activities
+//
+//
+//Information Sharing
+//
+"newCard_topLabel" = "Request new a card";
